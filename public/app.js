@@ -52,6 +52,7 @@ function stop() {
     data1.innerHTML = minute
 }
 function reset() {
+    document.getElementById("start").disabled = true;
     clearInterval(interval)
     milliSecond = 0;
     second = 0;
